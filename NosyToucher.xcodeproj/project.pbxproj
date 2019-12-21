@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF790CB5205BAF01001D1BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CB4205BAF01001D1BD7 /* AppDelegate.swift */; };
+		AF790CB7205BAF01001D1BD7 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CB6205BAF01001D1BD7 /* ExercisesViewController.swift */; };
+		AF790CBA205BAF01001D1BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF790CB8205BAF01001D1BD7 /* Main.storyboard */; };
+		AF790CBC205BAF02001D1BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF790CBB205BAF02001D1BD7 /* Assets.xcassets */; };
+		AF790CBF205BAF02001D1BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF790CBD205BAF02001D1BD7 /* LaunchScreen.storyboard */; };
+		AF790CCC205BB44B001D1BD7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CCB205BB44B001D1BD7 /* HistoryViewController.swift */; };
+		AF790CCE205BB56C001D1BD7 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CCD205BB56C001D1BD7 /* ExerciseCell.swift */; };
+		AF790CD0205BF26D001D1BD7 /* AddExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CCF205BF26D001D1BD7 /* AddExerciseViewController.swift */; };
+		AF790CD2205BF432001D1BD7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CD1205BF432001D1BD7 /* Model.swift */; };
+		AF790CD4205BFF93001D1BD7 /* ExerciseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CD3205BFF93001D1BD7 /* ExerciseService.swift */; };
+		AF790CD6205C1971001D1BD7 /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CD5205C1971001D1BD7 /* TimerService.swift */; };
+		AF790CD8205C1D67001D1BD7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CD7205C1D67001D1BD7 /* TimerViewController.swift */; };
+		AF790CDA205C1F1E001D1BD7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CD9205C1F1E001D1BD7 /* Utility.swift */; };
+		AF790CDD205C2216001D1BD7 /* UIStoryboard+main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CDC205C2216001D1BD7 /* UIStoryboard+main.swift */; };
+		AF790CDF205C26C3001D1BD7 /* NotifcationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CDE205C26C3001D1BD7 /* NotifcationService.swift */; };
+		AF790CE1205FC1A1001D1BD7 /* String+removeWhitespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF790CE0205FC1A1001D1BD7 /* String+removeWhitespaces.swift */; };
+		AFB10B6720639B4A00CF0A1D /* HistoryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB10B6620639B4A00CF0A1D /* HistoryItemCell.swift */; };
+		AFB10B692063D28900CF0A1D /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB10B682063D28900CF0A1D /* SoundService.swift */; };
+		AFCD50ED2062ADAA001DE1C5 /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD50EC2062ADAA001DE1C5 /* HistoryService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF790CB1205BAF01001D1BD7 /* NosyToucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NosyToucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF790CB4205BAF01001D1BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF790CB6205BAF01001D1BD7 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		AF790CB9205BAF01001D1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF790CBB205BAF02001D1BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF790CBE205BAF02001D1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF790CC0205BAF02001D1BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF790CCB205BB44B001D1BD7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AF790CCD205BB56C001D1BD7 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		AF790CCF205BF26D001D1BD7 /* AddExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseViewController.swift; sourceTree = "<group>"; };
+		AF790CD1205BF432001D1BD7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AF790CD3205BFF93001D1BD7 /* ExerciseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseService.swift; sourceTree = "<group>"; };
+		AF790CD5205C1971001D1BD7 /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
+		AF790CD7205C1D67001D1BD7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		AF790CD9205C1F1E001D1BD7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AF790CDC205C2216001D1BD7 /* UIStoryboard+main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+main.swift"; sourceTree = "<group>"; };
+		AF790CDE205C26C3001D1BD7 /* NotifcationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifcationService.swift; sourceTree = "<group>"; };
+		AF790CE0205FC1A1001D1BD7 /* String+removeWhitespaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+removeWhitespaces.swift"; sourceTree = "<group>"; };
+		AFB10B6620639B4A00CF0A1D /* HistoryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItemCell.swift; sourceTree = "<group>"; };
+		AFB10B682063D28900CF0A1D /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		AFCD50EC2062ADAA001DE1C5 /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF790CAE205BAF01001D1BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF790CA8205BAF01001D1BD7 = {
+			isa = PBXGroup;
+			children = (
+				AF790CB3205BAF01001D1BD7 /* NosyToucher */,
+				AF790CB2205BAF01001D1BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF790CB2205BAF01001D1BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CB1205BAF01001D1BD7 /* NosyToucher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF790CB3205BAF01001D1BD7 /* NosyToucher */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CB4205BAF01001D1BD7 /* AppDelegate.swift */,
+				AF790CDB205C2204001D1BD7 /* Extensions */,
+				AF790CC9205BAF6A001D1BD7 /* Services */,
+				AF790CC6205BAF25001D1BD7 /* Model */,
+				AF790CC7205BAF50001D1BD7 /* View */,
+				AF790CC8205BAF56001D1BD7 /* Controller */,
+				AF790CB8205BAF01001D1BD7 /* Main.storyboard */,
+				AF790CCA205BAF77001D1BD7 /* Supporting Files */,
+			);
+			path = NosyToucher;
+			sourceTree = "<group>";
+		};
+		AF790CC6205BAF25001D1BD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CD1205BF432001D1BD7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF790CC7205BAF50001D1BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CCD205BB56C001D1BD7 /* ExerciseCell.swift */,
+				AFB10B6620639B4A00CF0A1D /* HistoryItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF790CC8205BAF56001D1BD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CB6205BAF01001D1BD7 /* ExercisesViewController.swift */,
+				AF790CCB205BB44B001D1BD7 /* HistoryViewController.swift */,
+				AF790CCF205BF26D001D1BD7 /* AddExerciseViewController.swift */,
+				AF790CD7205C1D67001D1BD7 /* TimerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF790CC9205BAF6A001D1BD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CD3205BFF93001D1BD7 /* ExerciseService.swift */,
+				AF790CD5205C1971001D1BD7 /* TimerService.swift */,
+				AF790CD9205C1F1E001D1BD7 /* Utility.swift */,
+				AF790CDE205C26C3001D1BD7 /* NotifcationService.swift */,
+				AFCD50EC2062ADAA001DE1C5 /* HistoryService.swift */,
+				AFB10B682063D28900CF0A1D /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF790CCA205BAF77001D1BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CBB205BAF02001D1BD7 /* Assets.xcassets */,
+				AF790CBD205BAF02001D1BD7 /* LaunchScreen.storyboard */,
+				AF790CC0205BAF02001D1BD7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF790CDB205C2204001D1BD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF790CDC205C2216001D1BD7 /* UIStoryboard+main.swift */,
+				AF790CE0205FC1A1001D1BD7 /* String+removeWhitespaces.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF790CB0205BAF01001D1BD7 /* NosyToucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF790CC3205BAF02001D1BD7 /* Build configuration list for PBXNativeTarget "NosyToucher" */;
+			buildPhases = (
+				AF790CAD205BAF01001D1BD7 /* Sources */,
+				AF790CAE205BAF01001D1BD7 /* Frameworks */,
+				AF790CAF205BAF01001D1BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NosyToucher;
+			productName = NosyToucher;
+			productReference = AF790CB1205BAF01001D1BD7 /* NosyToucher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF790CA9205BAF01001D1BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Roland Tolnay";
+				TargetAttributes = {
+					AF790CB0205BAF01001D1BD7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AF790CAC205BAF01001D1BD7 /* Build configuration list for PBXProject "NosyToucher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF790CA8205BAF01001D1BD7;
+			productRefGroup = AF790CB2205BAF01001D1BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF790CB0205BAF01001D1BD7 /* NosyToucher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF790CAF205BAF01001D1BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF790CBF205BAF02001D1BD7 /* LaunchScreen.storyboard in Resources */,
+				AF790CBC205BAF02001D1BD7 /* Assets.xcassets in Resources */,
+				AF790CBA205BAF01001D1BD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF790CAD205BAF01001D1BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD50ED2062ADAA001DE1C5 /* HistoryService.swift in Sources */,
+				AF790CDA205C1F1E001D1BD7 /* Utility.swift in Sources */,
+				AF790CCC205BB44B001D1BD7 /* HistoryViewController.swift in Sources */,
+				AF790CD8205C1D67001D1BD7 /* TimerViewController.swift in Sources */,
+				AF790CCE205BB56C001D1BD7 /* ExerciseCell.swift in Sources */,
+				AF790CD0205BF26D001D1BD7 /* AddExerciseViewController.swift in Sources */,
+				AF790CD2205BF432001D1BD7 /* Model.swift in Sources */,
+				AFB10B692063D28900CF0A1D /* SoundService.swift in Sources */,
+				AF790CB7205BAF01001D1BD7 /* ExercisesViewController.swift in Sources */,
+				AF790CB5205BAF01001D1BD7 /* AppDelegate.swift in Sources */,
+				AF790CE1205FC1A1001D1BD7 /* String+removeWhitespaces.swift in Sources */,
+				AF790CD4205BFF93001D1BD7 /* ExerciseService.swift in Sources */,
+				AF790CD6205C1971001D1BD7 /* TimerService.swift in Sources */,
+				AFB10B6720639B4A00CF0A1D /* HistoryItemCell.swift in Sources */,
+				AF790CDF205C26C3001D1BD7 /* NotifcationService.swift in Sources */,
+				AF790CDD205C2216001D1BD7 /* UIStoryboard+main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF790CB8205BAF01001D1BD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF790CB9205BAF01001D1BD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF790CBD205BAF02001D1BD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF790CBE205BAF02001D1BD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF790CC1205BAF02001D1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF790CC2205BAF02001D1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF790CC4205BAF02001D1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MK5V2NGT;
+				INFOPLIST_FILE = "$(SRCROOT)/NosyToucher/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.rolandtolnay.NosyToucher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF790CC5205BAF02001D1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MK5V2NGT;
+				INFOPLIST_FILE = "$(SRCROOT)/NosyToucher/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.rolandtolnay.NosyToucher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF790CAC205BAF01001D1BD7 /* Build configuration list for PBXProject "NosyToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF790CC1205BAF02001D1BD7 /* Debug */,
+				AF790CC2205BAF02001D1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF790CC3205BAF02001D1BD7 /* Build configuration list for PBXNativeTarget "NosyToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF790CC4205BAF02001D1BD7 /* Debug */,
+				AF790CC5205BAF02001D1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF790CA9205BAF01001D1BD7 /* Project object */;
+}
